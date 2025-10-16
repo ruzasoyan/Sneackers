@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: #9b9b9b;
+    composes: listReset from global
+}
+
+a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: #918f8f;
+}
+
+.price {
+    color: #918f8f;
+    font-size: 17px;
+}

@@ -1,0 +1,46 @@
+.basket {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 385px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+}
+
+.kochak {
+    display: flex;
+    gap: 250px;
+}
+
+button {
+    color: #918f8f;
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.li {
+    list-style: none;
+}

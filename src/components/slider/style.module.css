@@ -1,0 +1,19 @@
+.slide {
+    min-height: 300px;
+    background-color: #F4EFE9;
+}
+
+.slider {
+    border-radius: 20px;
+}
+
+.container {
+    padding-block: 30px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}

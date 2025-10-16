@@ -1,0 +1,17 @@
+.button {
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    padding: 15px 30px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 45px;
+}

@@ -1,0 +1,8 @@
+.button {
+    composes: button from global;
+    border: none;
+}
+
+.button:empty {
+    padding: 0;
+}
