@@ -10,9 +10,7 @@ import { HomePage, AccountPage } from "./pages";
 import { Header, Basket } from '@/components';
 import { Suspense } from "react";
 
-
 function App() {
-
   return (
     <Suspense>
       <Router>
@@ -26,5 +24,4 @@ function App() {
     </Suspense>
   )
 }
-
 export default App

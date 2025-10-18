@@ -46,7 +46,6 @@ export const Basket = () => {
                                 text={"Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ."}
                                 title={"Корзина пустая"} /> :
                                 <>
-
                                     <ul className={styles.ul}>
                                         {data.map(el => (
                                             <li className={styles.li}>
@@ -54,7 +53,6 @@ export const Basket = () => {
                                             </li>
                                         ))}
                                     </ul>
-
                                     {data.length > 0 && <Button className={loading && styles.active}
                                         onClick={handleOrder}>Oformit Zakaz</Button>} </>
                         }
